@@ -57,7 +57,7 @@ export default function App() {
 
   //Informations
   const regions = ["us-east-1", "us-east-2", "us-west-1", "us-west-2", "af-south-1", "ap-east-1", "ap-south-2", "ap-southeast-3", "ap-south-1", "ap-northeast-3", "ap-northeast-2", "ap-southeast-1", "ap-southeast-2", "ap-northeast-1", "ca-central-1", "eu-central-1", "eu-west-1", "eu-west-2", "eu-south-1", "eu-west-3", "eu-south-2", "eu-north-1", "eu-central-2", "me-south-1", "me-central-1", "sa-east-1"];
-  const regionsDetail = ["US East (N. Virginia)", "US East (Ohio)", "US West (N. California)", "US West (Oregon)", "Africa (Cape Town)", "Asia Pacific (Hong Kong)", "Asia Pacific (Hyderabad)", "Asia Pacific (Jakarta)", "Asia Pacific (Mumbai)", "Asia Pacific (Osaka)", "Asia Pacific (Seoul)", "Asia Pacific (Singapore)", "Asia Pacific (Sydney)", "Asia Pacific (Tokyo)", "Canada (Central)", "Europe (Frankfurt)", "Europe (Ireland)", "Europe (London)", "Europe (Milan)", "Europe (Paris)", "Europe (Spain)", "Europe (Stockholm)", "Middle East (Zurich)", "Middle East (Bahrain)", "Middle East (UAE)", "South America (São Paulo)"];
+  const regionsDetail = ["US East (弗吉尼亚)", "US East (俄亥俄州)", "US West (加利福尼亚)", "US West (俄勒冈州)", "Africa (开普敦)", "Asia Pacific (香港)", "Asia Pacific (海得拉巴)", "Asia Pacific (雅加达)", "Asia Pacific (孟买)", "Asia Pacific (大阪)", "Asia Pacific (首尔)", "Asia Pacific (新加坡)", "Asia Pacific (悉尼)", "Asia Pacific (东京)", "Canada (加拿大中)", "Europe (欧洲-法兰克福)", "Europe (欧洲-爱尔兰)", "Europe (欧洲-伦敦)", "Europe (欧洲-米兰)", "Europe (欧洲-巴黎)", "Europe (欧洲-西班牙)", "Europe (欧洲-斯德哥尔摩)", "Middle East (中东-苏黎世)", "Middle East (中东-巴林)", "Middle East (中东-阿联酋)", "South America (南美-圣保罗"];
   const systems = ["debian-10", "debian-11", "ubuntu-20.04", "ubuntu-22.04", "arch-linux", "windows-server-2022-sc", "windows-server-2022-en"];
   const systemsDetail = ["Debian 10", "Debian 11", "Ubuntu 20.04", "Ubuntu 22.04", "Arch Linux", "Windows Server 2022 简体中文版", "Windows Server 2022 英文版"];
   const systemImageNameMap = new Map([["debian-10", "debian-10-amd64-2022*"], ["debian-11", "debian-11-amd64-2022*"], ["ubuntu-20.04", "ubuntu/images/hvm-ssd/ubuntu-focal-20.04-amd64-server-2022*"], ["ubuntu-22.04", "ubuntu/images/hvm-ssd/ubuntu-jammy-22.04-amd64-server-2022*"], ["Arch Linux", "*"], ["windows-server-2022-sc", "Windows_Server-2022-Chinese_Simplified-Full-Base-*"], ["windows-server-2022-en", "Windows_Server-2022-English-Full-Base-*"]]);
@@ -1061,7 +1061,7 @@ export default function App() {
             <div>本地模式：所有操作均在本地完成，凭证仅发送至AWS，更安全</div>
             <br />
             <div>远端模式：如果您的本地IP已遭滥用，使用远端模式可将凭证发送至远端服务器进行操作，匿名性更高</div>
-            <div>您可以自行搭建远端服务器，具体方法请访问<Link underline="hover" href="https://github.com/hiDandelion/shizuku-launcher-next">项目仓库</Link>，如不填写远端地址将使用默认托管的服务器</div>
+            <div>您可以自行搭建远端服务器，具体方法请访问<Link underline="hover" href=""></Link>，如不填写远端地址将使用默认托管的服务器</div>
             <br />
             <div>远端+代理模式：操作在远端完成，请求通过代理服务器转发至AWS，匿名性最高</div>
             <div>您需要提供兼容的代理服务器地址，受支持的协议为：http/https/socks(v5)/socks5/socks4/pac</div>
